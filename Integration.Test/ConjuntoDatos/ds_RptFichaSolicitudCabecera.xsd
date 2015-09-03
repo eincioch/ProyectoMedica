@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_RptFichaSolicitudCabecera" targetNamespace="http://tempuri.org/ds_RptFichaSolicitudCabecera.xsd" xmlns:mstns="http://tempuri.org/ds_RptFichaSolicitudCabecera.xsd" xmlns="http://tempuri.org/ds_RptFichaSolicitudCabecera.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_RptFichaSolicitudCabecera" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ds_RptFichaSolicitudCabecera" msprop:Generator_UserDSName="ds_RptFichaSolicitudCabecera">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Cabecera" msprop:Generator_TableClassName="CabeceraDataTable" msprop:Generator_TableVarName="tableCabecera" msprop:Generator_TablePropName="Cabecera" msprop:Generator_RowDeletingName="CabeceraRowDeleting" msprop:Generator_RowChangingName="CabeceraRowChanging" msprop:Generator_RowEvHandlerName="CabeceraRowChangeEventHandler" msprop:Generator_RowDeletedName="CabeceraRowDeleted" msprop:Generator_UserTableName="Cabecera" msprop:Generator_RowChangedName="CabeceraRowChanged" msprop:Generator_RowEvArgName="CabeceraRowChangeEvent" msprop:Generator_RowClassName="CabeceraRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nSolAdmNumero" msprop:Generator_ColumnVarNameInTable="columnnSolAdmNumero" msprop:Generator_ColumnPropNameInRow="nSolAdmNumero" msprop:Generator_ColumnPropNameInTable="nSolAdmNumeroColumn" msprop:Generator_UserColumnName="nSolAdmNumero" type="xs:string" minOccurs="0" />
+              <xs:element name="nIntCodigo" msprop:Generator_ColumnVarNameInTable="columnnIntCodigo" msprop:Generator_ColumnPropNameInRow="nIntCodigo" msprop:Generator_ColumnPropNameInTable="nIntCodigoColumn" msprop:Generator_UserColumnName="nIntCodigo" type="xs:string" minOccurs="0" />
+              <xs:element name="cIntDescripcion" msprop:Generator_ColumnVarNameInTable="columncIntDescripcion" msprop:Generator_ColumnPropNameInRow="cIntDescripcion" msprop:Generator_ColumnPropNameInTable="cIntDescripcionColumn" msprop:Generator_UserColumnName="cIntDescripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="dFecRegistro" msprop:Generator_ColumnVarNameInTable="columndFecRegistro" msprop:Generator_ColumnPropNameInRow="dFecRegistro" msprop:Generator_ColumnPropNameInTable="dFecRegistroColumn" msprop:Generator_UserColumnName="dFecRegistro" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="dFecExamen" msprop:Generator_ColumnVarNameInTable="columndFecExamen" msprop:Generator_ColumnPropNameInRow="dFecExamen" msprop:Generator_ColumnPropNameInTable="dFecExamenColumn" msprop:Generator_UserColumnName="dFecExamen" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="cPerCodigo" msprop:Generator_ColumnVarNameInTable="columncPerCodigo" msprop:Generator_ColumnPropNameInRow="cPerCodigo" msprop:Generator_ColumnPropNameInTable="cPerCodigoColumn" msprop:Generator_UserColumnName="cPerCodigo" type="xs:string" minOccurs="0" />
+              <xs:element name="Cliente" msprop:Generator_ColumnVarNameInTable="columnCliente" msprop:Generator_ColumnPropNameInRow="Cliente" msprop:Generator_ColumnPropNameInTable="ClienteColumn" msprop:Generator_UserColumnName="Cliente" type="xs:string" minOccurs="0" />
+              <xs:element name="nPerIdeTipo" msprop:Generator_ColumnVarNameInTable="columnnPerIdeTipo" msprop:Generator_ColumnPropNameInRow="nPerIdeTipo" msprop:Generator_ColumnPropNameInTable="nPerIdeTipoColumn" msprop:Generator_UserColumnName="nPerIdeTipo" type="xs:string" minOccurs="0" />
+              <xs:element name="cConDescripcion" msprop:Generator_ColumnVarNameInTable="columncConDescripcion" msprop:Generator_ColumnPropNameInRow="cConDescripcion" msprop:Generator_ColumnPropNameInTable="cConDescripcionColumn" msprop:Generator_UserColumnName="cConDescripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="cPerIdeNumero" msprop:Generator_ColumnVarNameInTable="columncPerIdeNumero" msprop:Generator_ColumnPropNameInRow="cPerIdeNumero" msprop:Generator_ColumnPropNameInTable="cPerIdeNumeroColumn" msprop:Generator_UserColumnName="cPerIdeNumero" type="xs:string" minOccurs="0" />
+              <xs:element name="iPerImaFoto" msprop:Generator_ColumnVarNameInTable="columniPerImaFoto" msprop:Generator_ColumnPropNameInRow="iPerImaFoto" msprop:Generator_ColumnPropNameInTable="iPerImaFotoColumn" msprop:Generator_UserColumnName="iPerImaFoto" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="nCtaCteSerCodigo" msprop:Generator_ColumnVarNameInTable="columnnCtaCteSerCodigo" msprop:Generator_ColumnPropNameInRow="nCtaCteSerCodigo" msprop:Generator_ColumnPropNameInTable="nCtaCteSerCodigoColumn" msprop:Generator_UserColumnName="nCtaCteSerCodigo" type="xs:int" minOccurs="0" />
+              <xs:element name="cIntJerarquia" msprop:Generator_ColumnVarNameInTable="columncIntJerarquia" msprop:Generator_ColumnPropNameInRow="cIntJerarquia" msprop:Generator_ColumnPropNameInTable="cIntJerarquiaColumn" msprop:Generator_UserColumnName="cIntJerarquia" type="xs:string" minOccurs="0" />
+              <xs:element name="cCtaCteSerJerarquia" msprop:Generator_ColumnVarNameInTable="columncCtaCteSerJerarquia" msprop:Generator_ColumnPropNameInRow="cCtaCteSerJerarquia" msprop:Generator_ColumnPropNameInTable="cCtaCteSerJerarquiaColumn" msprop:Generator_UserColumnName="cCtaCteSerJerarquia" type="xs:string" minOccurs="0" />
+              <xs:element name="cCtaCteSerKeyWord" msprop:Generator_ColumnVarNameInTable="columncCtaCteSerKeyWord" msprop:Generator_ColumnPropNameInRow="cCtaCteSerKeyWord" msprop:Generator_ColumnPropNameInTable="cCtaCteSerKeyWordColumn" msprop:Generator_UserColumnName="cCtaCteSerKeyWord" type="xs:string" minOccurs="0" />
+              <xs:element name="cPreparaPaciente" msprop:Generator_ColumnVarNameInTable="columncPreparaPaciente" msprop:Generator_ColumnPropNameInRow="cPreparaPaciente" msprop:Generator_ColumnPropNameInTable="cPreparaPacienteColumn" msprop:Generator_UserColumnName="cPreparaPaciente" type="xs:string" minOccurs="0" />
+              <xs:element name="nMonCodigo" msprop:Generator_ColumnVarNameInTable="columnnMonCodigo" msprop:Generator_ColumnPropNameInRow="nMonCodigo" msprop:Generator_ColumnPropNameInTable="nMonCodigoColumn" msprop:Generator_UserColumnName="nMonCodigo" type="xs:short" minOccurs="0" />
+              <xs:element name="nCtaCteCantidad" msprop:Generator_ColumnVarNameInTable="columnnCtaCteCantidad" msprop:Generator_ColumnPropNameInRow="nCtaCteCantidad" msprop:Generator_ColumnPropNameInTable="nCtaCteCantidadColumn" msprop:Generator_UserColumnName="nCtaCteCantidad" type="xs:int" minOccurs="0" />
+              <xs:element name="nCtaCteSerCosto" msprop:Generator_ColumnVarNameInTable="columnnCtaCteSerCosto" msprop:Generator_ColumnPropNameInRow="nCtaCteSerCosto" msprop:Generator_ColumnPropNameInTable="nCtaCteSerCostoColumn" msprop:Generator_UserColumnName="nCtaCteSerCosto" type="xs:double" minOccurs="0" />
+              <xs:element name="nCtaCteSubTotal" msprop:Generator_ColumnVarNameInTable="columnnCtaCteSubTotal" msprop:Generator_ColumnPropNameInRow="nCtaCteSubTotal" msprop:Generator_ColumnPropNameInTable="nCtaCteSubTotalColumn" msprop:Generator_UserColumnName="nCtaCteSubTotal" type="xs:double" minOccurs="0" />
+              <xs:element name="nCtaAlterna" msprop:Generator_ColumnVarNameInTable="columnnCtaAlterna" msprop:Generator_ColumnPropNameInRow="nCtaAlterna" msprop:Generator_ColumnPropNameInTable="nCtaAlternaColumn" msprop:Generator_UserColumnName="nCtaAlterna" type="xs:int" minOccurs="0" />
+              <xs:element name="nFlag" msprop:Generator_ColumnVarNameInTable="columnnFlag" msprop:Generator_ColumnPropNameInRow="nFlag" msprop:Generator_ColumnPropNameInTable="nFlagColumn" msprop:Generator_UserColumnName="nFlag" type="xs:short" minOccurs="0" />
+              <xs:element name="Autoriza" msprop:Generator_ColumnVarNameInTable="columnAutoriza" msprop:Generator_ColumnPropNameInRow="Autoriza" msprop:Generator_ColumnPropNameInTable="AutorizaColumn" msprop:Generator_UserColumnName="Autoriza" type="xs:string" minOccurs="0" />
+              <xs:element name="TipoDocu" msprop:Generator_ColumnVarNameInTable="columnTipoDocu" msprop:Generator_ColumnPropNameInRow="TipoDocu" msprop:Generator_ColumnPropNameInTable="TipoDocuColumn" msprop:Generator_UserColumnName="TipoDocu" type="xs:string" minOccurs="0" />
+              <xs:element name="cCtaCteComNumero" msprop:Generator_ColumnVarNameInTable="columncCtaCteComNumero" msprop:Generator_ColumnPropNameInRow="cCtaCteComNumero" msprop:Generator_ColumnPropNameInTable="cCtaCteComNumeroColumn" msprop:Generator_UserColumnName="cCtaCteComNumero" type="xs:string" minOccurs="0" />
+              <xs:element name="dCtaCteEmiFecha" msprop:Generator_ColumnVarNameInTable="columndCtaCteEmiFecha" msprop:Generator_ColumnPropNameInRow="dCtaCteEmiFecha" msprop:Generator_ColumnPropNameInTable="dCtaCteEmiFechaColumn" msprop:Generator_UserColumnName="dCtaCteEmiFecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="cPerUsuCodigo" msprop:Generator_ColumnVarNameInTable="columncPerUsuCodigo" msprop:Generator_ColumnPropNameInRow="cPerUsuCodigo" msprop:Generator_ColumnPropNameInTable="cPerUsuCodigoColumn" msprop:Generator_UserColumnName="cPerUsuCodigo" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

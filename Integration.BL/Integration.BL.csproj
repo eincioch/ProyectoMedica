@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2D489151-55C0-4B5B-A2BD-8551FC7C7561}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Integration.BL</RootNamespace>
+    <AssemblyName>Integration.BL</AssemblyName>
+    <TargetFrameworkVersion>v4.0.3</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL_Asiento\BL_ConAsiento.cs" />
+    <Compile Include="BL_Campana\BL_Campana.cs" />
+    <Compile Include="BL_Constante.cs" />
+    <Compile Include="BL_CtaCtes\BL_AnularComprobante.cs" />
+    <Compile Include="BL_CtaCtes\BL_CtaCteEstadoCuentaCole.cs" />
+    <Compile Include="BL_CtaCtes\BL_CtaCtePrecioServicio.cs" />
+    <Compile Include="BL_CtaCtes\BL_LastFecPago_for_Servicio.cs" />
+    <Compile Include="BL_CtasCtesMedica\BL_CtaCteComprobante.cs" />
+    <Compile Include="BL_CtasCtesMedica\BL_CtaCteComprobante_Pago.cs" />
+    <Compile Include="BL_CtasCtesMedica\BL_CtaCtePagDatos.cs" />
+    <Compile Include="BL_CtasCtesMedica\BL_CtaCtePago.cs" />
+    <Compile Include="BL_CtasCtesMedica\BL_CuentaCorriente.cs" />
+    <Compile Include="BL_CtasCtesMedica\BL_PerCuenta.cs" />
+    <Compile Include="BL_FichaAtencion\BL_FichaAtencion.cs" />
+    <Compile Include="BL_Persona\BL_PerParentesco.cs" />
+    <Compile Include="BL_Reportes\BL_BookElectronicoVta.cs" />
+    <Compile Include="BL_CtaCtes\BL_CtaCteComprobante.cs" />
+    <Compile Include="BL_CtaCtes\BL_CtaCteIteLine.cs" />
+    <Compile Include="BL_CtaCtes\BL_CtaCteIteLinRetencion.cs" />
+    <Compile Include="BL_CtaCtes\BL_CtaCteItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BL_CtaCtes\BL_CtaCtePago.cs" />
+    <Compile Include="BL_CtaCtes\BL_CtaCteReferencia.cs" />
+    <Compile Include="BL_CtaCtes\BL_CtaCteSerImpuesto.cs" />
+    <Compile Include="BL_CtaCtes\BL_CtaCteServicioFacturacion.cs" />
+    <Compile Include="BL_CtaCtes\BL_CtaCteSysConfigParamterServicio.cs" />
+    <Compile Include="BL_Reportes\BL_CtaCte_Get_Colegiadohabil_By_Servicio.cs" />
+    <Compile Include="BL_Reportes\BL_EstadoCuentaCole.cs" />
+    <Compile Include="BL_CtaCtes\BL_ImpuestoServicio.cs" />
+    <Compile Include="BL_CtaCtes\BL_ProgramacionBath.cs" />
+    <Compile Include="BL_Reportes\BL_RptconColegiado.cs" />
+    <Compile Include="BL_Reportes\BL_RptCuadreCaja.cs" />
+    <Compile Include="BL_Documento.cs" />
+    <Compile Include="BL_Interface.cs" />
+    <Compile Include="BL_Login.cs" />
+    <Compile Include="BL_Periodo.cs" />
+    <Compile Include="BL_Persona\BL_PerInterface.cs" />
+    <Compile Include="BL_Persona\BL_Persona.cs" />
+    <Compile Include="BL_PerUsuGruAcc.cs" />
+    <Compile Include="BL_TraDoc.cs" />
+    <Compile Include="BL_Ubigeo.cs" />
+    <Compile Include="BL_UniOrgPerExt.cs" />
+    <Compile Include="BL_CtaCtes\BL_CtaCtaServicio.cs" />
+    <Compile Include="BL_CtaCtes\BL_CtaCteNumeracion.cs" />
+    <Compile Include="BL_PerUsuario.cs" />
+    <Compile Include="BL_Sistema.cs" />
+    <Compile Include="BL_Solicitud.cs" />
+    <Compile Include="CIE\BL_CIE.cs" />
+    <Compile Include="Documento\BL_DocContenido.cs" />
+    <Compile Include="Documento\BL_DocFecTramite.cs" />
+    <Compile Include="Documento\BL_DocIdentifica.cs" />
+    <Compile Include="Documento\BL_DocPersona.cs" />
+    <Compile Include="Documento\BL_DocVigencia.cs" />
+    <Compile Include="Documento\BL_FondoMortorio.cs" />
+    <Compile Include="Documento\BL_GeneraNewIdcDocCodigo.cs" />
+    <Compile Include="BL_SeuConAssetModelo\BL_SeuConAssetModelo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Integration.BE\Integration.BE.csproj">
+      <Project>{B3B11ABC-5F97-4A78-BA7E-863EEB94D877}</Project>
+      <Name>Integration.BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Integration.DAService\Integration.DAService.csproj">
+      <Project>{381DAA73-F188-4B47-BADC-88B1265C1101}</Project>
+      <Name>Integration.DAService</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

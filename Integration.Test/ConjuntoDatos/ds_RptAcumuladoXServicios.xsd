@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_RptAcumuladoXServicios" targetNamespace="http://tempuri.org/ds_RptAcumuladoXServicios.xsd" xmlns:mstns="http://tempuri.org/ds_RptAcumuladoXServicios.xsd" xmlns="http://tempuri.org/ds_RptAcumuladoXServicios.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_RptAcumuladoXServicios" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ds_RptAcumuladoXServicios" msprop:Generator_UserDSName="ds_RptAcumuladoXServicios">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AcumuladoXServicios" msprop:Generator_TableClassName="AcumuladoXServiciosDataTable" msprop:Generator_TableVarName="tableAcumuladoXServicios" msprop:Generator_TablePropName="AcumuladoXServicios" msprop:Generator_RowDeletingName="AcumuladoXServiciosRowDeleting" msprop:Generator_RowChangingName="AcumuladoXServiciosRowChanging" msprop:Generator_RowEvHandlerName="AcumuladoXServiciosRowChangeEventHandler" msprop:Generator_RowDeletedName="AcumuladoXServiciosRowDeleted" msprop:Generator_UserTableName="AcumuladoXServicios" msprop:Generator_RowChangedName="AcumuladoXServiciosRowChanged" msprop:Generator_RowEvArgName="AcumuladoXServiciosRowChangeEvent" msprop:Generator_RowClassName="AcumuladoXServiciosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="dCtaCteFecRegistro" msprop:Generator_ColumnVarNameInTable="columndCtaCteFecRegistro" msprop:Generator_ColumnPropNameInRow="dCtaCteFecRegistro" msprop:Generator_ColumnPropNameInTable="dCtaCteFecRegistroColumn" msprop:Generator_UserColumnName="dCtaCteFecRegistro" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="nctactesercodigo" msprop:Generator_ColumnVarNameInTable="columnnctactesercodigo" msprop:Generator_ColumnPropNameInRow="nctactesercodigo" msprop:Generator_ColumnPropNameInTable="nctactesercodigoColumn" msprop:Generator_UserColumnName="nctactesercodigo" type="xs:int" minOccurs="0" />
+              <xs:element name="cintdescripcion" msprop:Generator_ColumnVarNameInTable="columncintdescripcion" msprop:Generator_ColumnPropNameInRow="cintdescripcion" msprop:Generator_ColumnPropNameInTable="cintdescripcionColumn" msprop:Generator_UserColumnName="cintdescripcion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nctactelinpreciounit" msprop:Generator_ColumnVarNameInTable="columnnctactelinpreciounit" msprop:Generator_ColumnPropNameInRow="nctactelinpreciounit" msprop:Generator_ColumnPropNameInTable="nctactelinpreciounitColumn" msprop:Generator_UserColumnName="nctactelinpreciounit" type="xs:double" minOccurs="0" />
+              <xs:element name="nctactepagimporte" msprop:Generator_ColumnVarNameInTable="columnnctactepagimporte" msprop:Generator_ColumnPropNameInRow="nctactepagimporte" msprop:Generator_ColumnPropNameInTable="nctactepagimporteColumn" msprop:Generator_UserColumnName="nctactepagimporte" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

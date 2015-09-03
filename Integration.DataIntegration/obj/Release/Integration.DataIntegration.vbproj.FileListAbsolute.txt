@@ -1,0 +1,9 @@
+D:\Enrique\CCP\Integration.System\Integration.DataIntegration\bin\Release\Integration.DataIntegration.dll
+D:\Enrique\CCP\Integration.System\Integration.DataIntegration\bin\Release\Integration.DataIntegration.pdb
+D:\Enrique\CCP\Integration.System\Integration.DataIntegration\bin\Release\Integration.DataIntegration.xml
+D:\Enrique\CCP\Integration.System\Integration.DataIntegration\bin\Release\Integration.Conection.dll
+D:\Enrique\CCP\Integration.System\Integration.DataIntegration\obj\Release\Integration.DataIntegration.Resources.resources
+D:\Enrique\CCP\Integration.System\Integration.DataIntegration\obj\Release\Integration.DataIntegration.vbproj.GenerateResource.Cache
+D:\Enrique\CCP\Integration.System\Integration.DataIntegration\obj\Release\Integration.DataIntegration.dll
+D:\Enrique\CCP\Integration.System\Integration.DataIntegration\obj\Release\Integration.DataIntegration.xml
+D:\Enrique\CCP\Integration.System\Integration.DataIntegration\obj\Release\Integration.DataIntegration.pdb

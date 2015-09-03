@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<!-- Select a Product Configuration -->
+		<InstallShieldProductConfiguration>Express</InstallShieldProductConfiguration>
+		<!-- Select a Visual Studio Configuration / InstallShield Release -->
+		<Configuration>Debug</Configuration>
+		<InstallShieldRelease>$(Configuration)</InstallShieldRelease>
+	</PropertyGroup>
+	<ItemGroup>
+		<!-- The InstallShieldProject item selects the project to build -->
+		<InstallShieldProject Include="$(MSBuildProjectDirectory)\$(MSBuildProjectName).isl"/>
+		<!-- The InstallShieldReleaseFlags sets Release Flags -->
+		<!--<InstallShieldReleaseFlags Include=""/>-->
+		<!-- The InstallShieldMergeModulePath specifies what directories are
+		searched for Merge Modules -->
+		<!--<InstallShieldMergeModulePath Include=""/>-->
+	</ItemGroup>
+	<ItemGroup>
+		<!-- The ProjectReference items refer to any Visual Studio solutions you want to automatically probe for Project Output Groups.  -->
+	</ItemGroup>
+	<ItemGroup>
+		<!-- The TaggedOutputs items allow you to explicitly add extra files to output groups. Each item must include both Name and OutputGroup, as well as TargetPath metadata values. -->
+		<!--<TaggedOutputs Include="C:\My Test Exe.exe">
+			<Name>My Test Project</Name>
+			<OutputGroup>Primary output</OutputGroup>
+			<TargetPath>My Test Exe.exe</TargetPath>
+		</TaggedOutputs> -->
+	</ItemGroup>
+	<Import Project="$(MSBuildExtensionsPath32)\InstallShield\2013Limited\InstallShield.targets"/>
+	<ItemGroup>
+		<ProjectReference Include="..\Integration.BE\Integration.BE.csproj">
+			<Name>Integration.BE</Name>
+			<Project>{B3B11ABC-5F97-4A78-BA7E-863EEB94D877}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\Integration.BL\Integration.BL.csproj">
+			<Name>Integration.BL</Name>
+			<Project>{2D489151-55C0-4B5B-A2BD-8551FC7C7561}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\Integration.DAService\Integration.DAService.csproj">
+			<Name>Integration.DAService</Name>
+			<Project>{381DAA73-F188-4B47-BADC-88B1265C1101}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\Integration.DataIntegration\Integration.DataIntegration.vbproj">
+			<Name>Integration.DataIntegration</Name>
+			<Project>{BD77B395-A455-4008-867C-419CD69F318F}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\Integration.Test\Integration.Test.vbproj">
+			<Name>Integration.Test</Name>
+			<Project>{A34787C7-9F3F-4231-9AA2-F155549F92EF}</Project>
+		</ProjectReference>
+	</ItemGroup>
+</Project>

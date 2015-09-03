@@ -1,0 +1,212 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Integration.Test
+</name>
+</assembly>
+<members>
+<member name="T:Integration.Test.ds_RptAcumuladoXServicios.AcumuladoXServiciosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Integration.Test.ds_RptAcumuladoXServicios.AcumuladoXServiciosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Integration.Test.ds_RptAcumuladoXServicios.AcumuladoXServiciosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Integration.Test.ds_RptAcumuladoXServicios">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Integration.Test.ds_RptCuadreCajaResumen.CuadreCajaResumenDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Integration.Test.ds_RptCuadreCajaResumen.CuadreCajaResumenRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Integration.Test.ds_RptCuadreCajaResumen.CuadreCajaResumenRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Integration.Test.ds_RptCuadreCajaResumen">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Integration.Test.ds_RptColegiadohabil_By_Servicio.Colegiadohabil_By_ServicioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Integration.Test.ds_RptColegiadohabil_By_Servicio.Colegiadohabil_By_ServicioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Integration.Test.ds_RptColegiadohabil_By_Servicio.Colegiadohabil_By_ServicioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Integration.Test.ds_RptColegiadohabil_By_Servicio">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Integration.Test.ds_RptEstadoCuentaCole.EstadoCuentaColeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Integration.Test.ds_RptEstadoCuentaCole.EstadoCuentaColeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Integration.Test.ds_RptEstadoCuentaCole.EstadoCuentaColeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Integration.Test.ds_RptEstadoCuentaCole">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Integration.Test.ds_RptFichaAfiliacionFondo.FichaAfiliacionFondoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Integration.Test.ds_RptFichaAfiliacionFondo.FichaAfiliacionFondoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Integration.Test.ds_RptFichaAfiliacionFondo.FichaAfiliacionFondoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Integration.Test.ds_RptFichaAfiliacionFondo">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Integration.Test.ds_FormatoReciboIngresosFac.FormatoReciboIngresoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Integration.Test.ds_FormatoReciboIngresosFac.FormatoReciboIngresoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Integration.Test.ds_FormatoReciboIngresosFac.FormatoReciboIngresoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Integration.Test.ds_FormatoReciboIngresosFac">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Integration.Test.ds_RptFichaIndividual.FichaIndividualDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Integration.Test.ds_RptFichaIndividual.EmpresaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Integration.Test.ds_RptFichaIndividual.FichaIndividualRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Integration.Test.ds_RptFichaIndividual.EmpresaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Integration.Test.ds_RptFichaIndividual.FichaIndividualRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Integration.Test.ds_RptFichaIndividual.EmpresaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Integration.Test.ds_RptFichaIndividual">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Integration.Test.ds_RptCuadreCajaDetallado.CuadreCajaDetalladoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Integration.Test.ds_RptCuadreCajaDetallado.CuadreCajaDetalladoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Integration.Test.ds_RptCuadreCajaDetallado.CuadreCajaDetalladoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Integration.Test.ds_RptCuadreCajaDetallado">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Integration.Test.ds_RptCuadreCajaFormaPago.CuadreCajaFormaPagoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Integration.Test.ds_RptCuadreCajaFormaPago.CuadreCajaFormaPagoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Integration.Test.ds_RptCuadreCajaFormaPago.CuadreCajaFormaPagoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Integration.Test.ds_RptCuadreCajaFormaPago">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Integration.Test.ds_RptIngresoPercibidoDetaforServCliente.IngresoPercibidoDetaforServClienteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Integration.Test.ds_RptIngresoPercibidoDetaforServCliente.IngresoPercibidoDetaforServClienteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Integration.Test.ds_RptIngresoPercibidoDetaforServCliente.IngresoPercibidoDetaforServClienteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Integration.Test.ds_RptIngresoPercibidoDetaforServCliente">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:Integration.Test.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:Integration.Test.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
+</summary>
+</member><member name="T:Integration.Test.My.Resources.Resources">
+	<summary>
+  Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="T:Integration.Test.ds_RptSolicitudAtendida.dt_SolicitudAtendidaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Integration.Test.ds_RptSolicitudAtendida.dt_SolicitudAtendidaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Integration.Test.ds_RptSolicitudAtendida.dt_SolicitudAtendidaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Integration.Test.ds_RptSolicitudAtendida">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+</members>
+</doc>

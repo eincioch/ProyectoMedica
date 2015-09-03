@@ -1,0 +1,10 @@
+D:\Enrique\CCP\Integration.System\Integration.BL\bin\Release\Integration.BL.dll
+D:\Enrique\CCP\Integration.System\Integration.BL\bin\Release\Integration.BL.pdb
+D:\Enrique\CCP\Integration.System\Integration.BL\bin\Release\Integration.BE.dll
+D:\Enrique\CCP\Integration.System\Integration.BL\bin\Release\Integration.DAService.dll
+D:\Enrique\CCP\Integration.System\Integration.BL\bin\Release\Integration.Conection.dll
+D:\Enrique\CCP\Integration.System\Integration.BL\bin\Release\Integration.BE.pdb
+D:\Enrique\CCP\Integration.System\Integration.BL\bin\Release\Integration.DAService.pdb
+D:\Enrique\CCP\Integration.System\Integration.BL\obj\Release\Integration.BL.csprojResolveAssemblyReference.cache
+D:\Enrique\CCP\Integration.System\Integration.BL\obj\Release\Integration.BL.dll
+D:\Enrique\CCP\Integration.System\Integration.BL\obj\Release\Integration.BL.pdb

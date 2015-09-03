@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_RptFichaSolicitudDetalle" targetNamespace="http://tempuri.org/ds_RptFichaSolicitudDetalle.xsd" xmlns:mstns="http://tempuri.org/ds_RptFichaSolicitudDetalle.xsd" xmlns="http://tempuri.org/ds_RptFichaSolicitudDetalle.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_RptFichaSolicitudDetalle" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ds_RptFichaSolicitudDetalle" msprop:Generator_UserDSName="ds_RptFichaSolicitudDetalle">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Detalle" msprop:Generator_TableClassName="DetalleDataTable" msprop:Generator_TableVarName="tableDetalle" msprop:Generator_TablePropName="Detalle" msprop:Generator_RowDeletingName="DetalleRowDeleting" msprop:Generator_RowChangingName="DetalleRowChanging" msprop:Generator_RowEvHandlerName="DetalleRowChangeEventHandler" msprop:Generator_RowDeletedName="DetalleRowDeleted" msprop:Generator_UserTableName="Detalle" msprop:Generator_RowChangedName="DetalleRowChanged" msprop:Generator_RowEvArgName="DetalleRowChangeEvent" msprop:Generator_RowClassName="DetalleRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nSolAdmNumero" msprop:Generator_ColumnVarNameInTable="columnnSolAdmNumero" msprop:Generator_ColumnPropNameInRow="nSolAdmNumero" msprop:Generator_ColumnPropNameInTable="nSolAdmNumeroColumn" msprop:Generator_UserColumnName="nSolAdmNumero" type="xs:string" minOccurs="0" />
+              <xs:element name="cPerJurCodigo" msprop:Generator_ColumnVarNameInTable="columncPerJurCodigo" msprop:Generator_ColumnPropNameInRow="cPerJurCodigo" msprop:Generator_ColumnPropNameInTable="cPerJurCodigoColumn" msprop:Generator_UserColumnName="cPerJurCodigo" type="xs:string" minOccurs="0" />
+              <xs:element name="nCtaCteSerCodigo" msprop:Generator_ColumnVarNameInTable="columnnCtaCteSerCodigo" msprop:Generator_ColumnPropNameInRow="nCtaCteSerCodigo" msprop:Generator_ColumnPropNameInTable="nCtaCteSerCodigoColumn" msprop:Generator_UserColumnName="nCtaCteSerCodigo" type="xs:string" minOccurs="0" />
+              <xs:element name="cIntJerarquia" msprop:Generator_ColumnVarNameInTable="columncIntJerarquia" msprop:Generator_ColumnPropNameInRow="cIntJerarquia" msprop:Generator_ColumnPropNameInTable="cIntJerarquiaColumn" msprop:Generator_UserColumnName="cIntJerarquia" type="xs:string" minOccurs="0" />
+              <xs:element name="cCtaCteSerJerarquia" msprop:Generator_ColumnVarNameInTable="columncCtaCteSerJerarquia" msprop:Generator_ColumnPropNameInRow="cCtaCteSerJerarquia" msprop:Generator_ColumnPropNameInTable="cCtaCteSerJerarquiaColumn" msprop:Generator_UserColumnName="cCtaCteSerJerarquia" type="xs:string" minOccurs="0" />
+              <xs:element name="cCtaCteSerKeyWord" msprop:Generator_ColumnVarNameInTable="columncCtaCteSerKeyWord" msprop:Generator_ColumnPropNameInRow="cCtaCteSerKeyWord" msprop:Generator_ColumnPropNameInTable="cCtaCteSerKeyWordColumn" msprop:Generator_UserColumnName="cCtaCteSerKeyWord" type="xs:string" minOccurs="0" />
+              <xs:element name="cPreparaPaciente" msprop:Generator_ColumnVarNameInTable="columncPreparaPaciente" msprop:Generator_ColumnPropNameInRow="cPreparaPaciente" msprop:Generator_ColumnPropNameInTable="cPreparaPacienteColumn" msprop:Generator_UserColumnName="cPreparaPaciente" type="xs:string" minOccurs="0" />
+              <xs:element name="nCtaCteCantidad" msprop:Generator_ColumnVarNameInTable="columnnCtaCteCantidad" msprop:Generator_ColumnPropNameInRow="nCtaCteCantidad" msprop:Generator_ColumnPropNameInTable="nCtaCteCantidadColumn" msprop:Generator_UserColumnName="nCtaCteCantidad" type="xs:string" minOccurs="0" />
+              <xs:element name="nCtaCteSerCosto" msprop:Generator_ColumnVarNameInTable="columnnCtaCteSerCosto" msprop:Generator_ColumnPropNameInRow="nCtaCteSerCosto" msprop:Generator_ColumnPropNameInTable="nCtaCteSerCostoColumn" msprop:Generator_UserColumnName="nCtaCteSerCosto" type="xs:string" minOccurs="0" />
+              <xs:element name="nCtaCteSubTotal" msprop:Generator_ColumnVarNameInTable="columnnCtaCteSubTotal" msprop:Generator_ColumnPropNameInRow="nCtaCteSubTotal" msprop:Generator_ColumnPropNameInTable="nCtaCteSubTotalColumn" msprop:Generator_UserColumnName="nCtaCteSubTotal" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

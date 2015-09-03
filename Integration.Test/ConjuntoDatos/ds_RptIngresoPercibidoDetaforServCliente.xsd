@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_RptIngresoPercibidoDetaforServCliente" targetNamespace="http://tempuri.org/ds_RptIngresoPercibidoDetaforServCliente.xsd" xmlns:mstns="http://tempuri.org/ds_RptIngresoPercibidoDetaforServCliente.xsd" xmlns="http://tempuri.org/ds_RptIngresoPercibidoDetaforServCliente.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_RptIngresoPercibidoDetaforServCliente" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ds_RptIngresoPercibidoDetaforServCliente" msprop:Generator_UserDSName="ds_RptIngresoPercibidoDetaforServCliente">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="IngresoPercibidoDetaforServCliente" msprop:Generator_TableClassName="IngresoPercibidoDetaforServClienteDataTable" msprop:Generator_TableVarName="tableIngresoPercibidoDetaforServCliente" msprop:Generator_TablePropName="IngresoPercibidoDetaforServCliente" msprop:Generator_RowDeletingName="IngresoPercibidoDetaforServClienteRowDeleting" msprop:Generator_UserTableName="IngresoPercibidoDetaforServCliente" msprop:Generator_RowChangingName="IngresoPercibidoDetaforServClienteRowChanging" msprop:Generator_RowEvHandlerName="IngresoPercibidoDetaforServClienteRowChangeEventHandler" msprop:Generator_RowDeletedName="IngresoPercibidoDetaforServClienteRowDeleted" msprop:Generator_RowEvArgName="IngresoPercibidoDetaforServClienteRowChangeEvent" msprop:Generator_RowChangedName="IngresoPercibidoDetaforServClienteRowChanged" msprop:Generator_RowClassName="IngresoPercibidoDetaforServClienteRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cpercodigo" msprop:Generator_ColumnVarNameInTable="columncpercodigo" msprop:Generator_ColumnPropNameInRow="cpercodigo" msprop:Generator_ColumnPropNameInTable="cpercodigoColumn" msprop:Generator_UserColumnName="cpercodigo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CodColegio" msprop:Generator_ColumnVarNameInTable="columnCodColegio" msprop:Generator_ColumnPropNameInRow="CodColegio" msprop:Generator_ColumnPropNameInTable="CodColegioColumn" msprop:Generator_UserColumnName="CodColegio" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TipoDocu" msprop:Generator_ColumnVarNameInTable="columnTipoDocu" msprop:Generator_ColumnPropNameInRow="TipoDocu" msprop:Generator_ColumnPropNameInTable="TipoDocuColumn" msprop:Generator_UserColumnName="TipoDocu" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="70" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Comprobante" msprop:Generator_ColumnVarNameInTable="columnComprobante" msprop:Generator_ColumnPropNameInRow="Comprobante" msprop:Generator_ColumnPropNameInTable="ComprobanteColumn" msprop:Generator_UserColumnName="Comprobante" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nrodocumento" msprop:Generator_ColumnVarNameInTable="columnnrodocumento" msprop:Generator_ColumnPropNameInRow="nrodocumento" msprop:Generator_ColumnPropNameInTable="nrodocumentoColumn" msprop:Generator_UserColumnName="nrodocumento" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cliente" msprop:Generator_ColumnVarNameInTable="columncliente" msprop:Generator_ColumnPropNameInRow="cliente" msprop:Generator_ColumnPropNameInTable="clienteColumn" msprop:Generator_UserColumnName="cliente" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dctactefecregistro" msprop:Generator_ColumnVarNameInTable="columndctactefecregistro" msprop:Generator_ColumnPropNameInRow="dctactefecregistro" msprop:Generator_ColumnPropNameInTable="dctactefecregistroColumn" msprop:Generator_UserColumnName="dctactefecregistro" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="nctactesercodigo" msprop:Generator_ColumnVarNameInTable="columnnctactesercodigo" msprop:Generator_ColumnPropNameInRow="nctactesercodigo" msprop:Generator_ColumnPropNameInTable="nctactesercodigoColumn" msprop:Generator_UserColumnName="nctactesercodigo" type="xs:int" minOccurs="0" />
+              <xs:element name="cintdescripcion" msprop:Generator_ColumnVarNameInTable="columncintdescripcion" msprop:Generator_ColumnPropNameInRow="cintdescripcion" msprop:Generator_ColumnPropNameInTable="cintdescripcionColumn" msprop:Generator_UserColumnName="cintdescripcion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nctactelinpreciounit" msprop:Generator_ColumnVarNameInTable="columnnctactelinpreciounit" msprop:Generator_ColumnPropNameInRow="nctactelinpreciounit" msprop:Generator_ColumnPropNameInTable="nctactelinpreciounitColumn" msprop:Generator_UserColumnName="nctactelinpreciounit" type="xs:double" minOccurs="0" />
+              <xs:element name="nctactepagimporte" msprop:Generator_ColumnVarNameInTable="columnnctactepagimporte" msprop:Generator_ColumnPropNameInRow="nctactepagimporte" msprop:Generator_ColumnPropNameInTable="nctactepagimporteColumn" msprop:Generator_UserColumnName="nctactepagimporte" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

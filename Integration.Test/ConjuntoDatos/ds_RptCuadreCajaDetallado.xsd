@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_RptCuadreCajaDetallado" targetNamespace="http://tempuri.org/ds_RptCuadreCajaDetallado.xsd" xmlns:mstns="http://tempuri.org/ds_RptCuadreCajaDetallado.xsd" xmlns="http://tempuri.org/ds_RptCuadreCajaDetallado.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_RptCuadreCajaDetallado" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ds_RptCuadreCajaDetallado" msprop:Generator_UserDSName="ds_RptCuadreCajaDetallado">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CuadreCajaDetallado" msprop:Generator_TableClassName="CuadreCajaDetalladoDataTable" msprop:Generator_TableVarName="tableCuadreCajaDetallado" msprop:Generator_RowChangedName="CuadreCajaDetalladoRowChanged" msprop:Generator_TablePropName="CuadreCajaDetallado" msprop:Generator_RowDeletingName="CuadreCajaDetalladoRowDeleting" msprop:Generator_RowChangingName="CuadreCajaDetalladoRowChanging" msprop:Generator_RowEvHandlerName="CuadreCajaDetalladoRowChangeEventHandler" msprop:Generator_RowDeletedName="CuadreCajaDetalladoRowDeleted" msprop:Generator_RowClassName="CuadreCajaDetalladoRow" msprop:Generator_UserTableName="CuadreCajaDetallado" msprop:Generator_RowEvArgName="CuadreCajaDetalladoRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cctacterecibo" msprop:Generator_ColumnVarNameInTable="columncCtaCteRecibo" msprop:Generator_ColumnPropNameInRow="cCtaCteRecibo" msprop:Generator_ColumnPropNameInTable="cCtaCteReciboColumn" msprop:Generator_UserColumnName="cctacterecibo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nCajCodigo" msprop:Generator_ColumnVarNameInTable="columnnCajCodigo" msprop:Generator_ColumnPropNameInRow="nCajCodigo" msprop:Generator_ColumnPropNameInTable="nCajCodigoColumn" msprop:Generator_UserColumnName="nCajCodigo" type="xs:int" minOccurs="0" />
+              <xs:element name="nCtaCteComCodigo" msprop:Generator_ColumnVarNameInTable="columnnCtaCteComCodigo" msprop:Generator_ColumnPropNameInRow="nCtaCteComCodigo" msprop:Generator_ColumnPropNameInTable="nCtaCteComCodigoColumn" msprop:Generator_UserColumnName="nCtaCteComCodigo" type="xs:int" minOccurs="0" />
+              <xs:element name="DescRec" msprop:Generator_ColumnVarNameInTable="columnDescRec" msprop:Generator_ColumnPropNameInRow="DescRec" msprop:Generator_ColumnPropNameInTable="DescRecColumn" msprop:Generator_UserColumnName="DescRec" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cCtaCteComNumero" msprop:Generator_ColumnVarNameInTable="columncCtaCteComNumero" msprop:Generator_ColumnPropNameInRow="cCtaCteComNumero" msprop:Generator_ColumnPropNameInTable="cCtaCteComNumeroColumn" msprop:Generator_UserColumnName="cCtaCteComNumero" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dCtaCteComFecEmision" msprop:Generator_ColumnVarNameInTable="columndCtaCteComFecEmision" msprop:Generator_ColumnPropNameInRow="dCtaCteComFecEmision" msprop:Generator_ColumnPropNameInTable="dCtaCteComFecEmisionColumn" msprop:Generator_UserColumnName="dCtaCteComFecEmision" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Hora" msprop:Generator_ColumnVarNameInTable="columnHora" msprop:Generator_ColumnPropNameInRow="Hora" msprop:Generator_ColumnPropNameInTable="HoraColumn" msprop:Generator_UserColumnName="Hora" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nCtaCteComImporte" msprop:Generator_ColumnVarNameInTable="columnnCtaCteComImporte" msprop:Generator_ColumnPropNameInRow="nCtaCteComImporte" msprop:Generator_ColumnPropNameInTable="nCtaCteComImporteColumn" msprop:Generator_UserColumnName="nCtaCteComImporte" type="xs:double" minOccurs="0" />
+              <xs:element name="nCtaCteForPago" msprop:Generator_ColumnVarNameInTable="columnnCtaCteForPago" msprop:Generator_ColumnPropNameInRow="nCtaCteForPago" msprop:Generator_ColumnPropNameInTable="nCtaCteForPagoColumn" msprop:Generator_UserColumnName="nCtaCteForPago" type="xs:int" minOccurs="0" />
+              <xs:element name="DescForPago" msprop:Generator_ColumnVarNameInTable="columnDescForPago" msprop:Generator_ColumnPropNameInRow="DescForPago" msprop:Generator_ColumnPropNameInTable="DescForPagoColumn" msprop:Generator_UserColumnName="DescForPago" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nPerCtaCodigo" msprop:Generator_ColumnVarNameInTable="columnnPerCtaCodigo" msprop:Generator_ColumnPropNameInRow="nPerCtaCodigo" msprop:Generator_ColumnPropNameInTable="nPerCtaCodigoColumn" msprop:Generator_UserColumnName="nPerCtaCodigo" type="xs:int" minOccurs="0" />
+              <xs:element name="TipoTarj" msprop:Generator_ColumnVarNameInTable="columnTipoTarj" msprop:Generator_ColumnPropNameInRow="TipoTarj" msprop:Generator_ColumnPropNameInTable="TipoTarjColumn" msprop:Generator_UserColumnName="TipoTarj" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cPerjurCodigoFin" msprop:Generator_ColumnVarNameInTable="columncPerjurCodigoFin" msprop:Generator_ColumnPropNameInRow="cPerjurCodigoFin" msprop:Generator_ColumnPropNameInTable="cPerjurCodigoFinColumn" msprop:Generator_UserColumnName="cPerjurCodigoFin" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EntidadBco" msprop:Generator_ColumnVarNameInTable="columnEntidadBco" msprop:Generator_ColumnPropNameInRow="EntidadBco" msprop:Generator_ColumnPropNameInTable="EntidadBcoColumn" msprop:Generator_UserColumnName="EntidadBco" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cCtaCtePagTracer" msprop:Generator_ColumnVarNameInTable="columncCtaCtePagTracer" msprop:Generator_ColumnPropNameInRow="cCtaCtePagTracer" msprop:Generator_ColumnPropNameInTable="cCtaCtePagTracerColumn" msprop:Generator_UserColumnName="cCtaCtePagTracer" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nMonCodigo" msprop:Generator_ColumnVarNameInTable="columnnMonCodigo" msprop:Generator_ColumnPropNameInRow="nMonCodigo" msprop:Generator_ColumnPropNameInTable="nMonCodigoColumn" msprop:Generator_UserColumnName="nMonCodigo" type="xs:int" minOccurs="0" />
+              <xs:element name="DesMoneda" msprop:Generator_ColumnVarNameInTable="columnDesMoneda" msprop:Generator_ColumnPropNameInRow="DesMoneda" msprop:Generator_ColumnPropNameInTable="DesMonedaColumn" msprop:Generator_UserColumnName="DesMoneda" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nCtaCtePagImporte" msprop:Generator_ColumnVarNameInTable="columnnCtaCtePagImporte" msprop:Generator_ColumnPropNameInRow="nCtaCtePagImporte" msprop:Generator_ColumnPropNameInTable="nCtaCtePagImporteColumn" msprop:Generator_UserColumnName="nCtaCtePagImporte" type="xs:double" minOccurs="0" />
+              <xs:element name="dctactefectransacion" msprop:Generator_ColumnVarNameInTable="columndctactefectransacion" msprop:Generator_ColumnPropNameInRow="dctactefectransacion" msprop:Generator_ColumnPropNameInTable="dctactefectransacionColumn" msprop:Generator_UserColumnName="dctactefectransacion" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="cperusucodigo" msprop:Generator_ColumnVarNameInTable="columncperusucodigo" msprop:Generator_ColumnPropNameInRow="cperusucodigo" msprop:Generator_ColumnPropNameInTable="cperusucodigoColumn" msprop:Generator_UserColumnName="cperusucodigo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

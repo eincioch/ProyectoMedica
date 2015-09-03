@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_RptCuadreCajaFormaPago" targetNamespace="http://tempuri.org/ds_RptCuadreCajaFormaPago.xsd" xmlns:mstns="http://tempuri.org/ds_RptCuadreCajaFormaPago.xsd" xmlns="http://tempuri.org/ds_RptCuadreCajaFormaPago.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_RptCuadreCajaFormaPago" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ds_RptCuadreCajaFormaPago" msprop:Generator_UserDSName="ds_RptCuadreCajaFormaPago">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CuadreCajaFormaPago" msprop:Generator_TableClassName="CuadreCajaFormaPagoDataTable" msprop:Generator_TableVarName="tableCuadreCajaFormaPago" msprop:Generator_RowChangedName="CuadreCajaFormaPagoRowChanged" msprop:Generator_TablePropName="CuadreCajaFormaPago" msprop:Generator_RowDeletingName="CuadreCajaFormaPagoRowDeleting" msprop:Generator_RowChangingName="CuadreCajaFormaPagoRowChanging" msprop:Generator_RowEvHandlerName="CuadreCajaFormaPagoRowChangeEventHandler" msprop:Generator_RowDeletedName="CuadreCajaFormaPagoRowDeleted" msprop:Generator_RowClassName="CuadreCajaFormaPagoRow" msprop:Generator_UserTableName="CuadreCajaFormaPago" msprop:Generator_RowEvArgName="CuadreCajaFormaPagoRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nCajCodigo" msprop:Generator_ColumnVarNameInTable="columnnCajCodigo" msprop:Generator_ColumnPropNameInRow="nCajCodigo" msprop:Generator_ColumnPropNameInTable="nCajCodigoColumn" msprop:Generator_UserColumnName="nCajCodigo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dctactefecpago" msprop:Generator_ColumnVarNameInTable="columndctactefecpago" msprop:Generator_ColumnPropNameInRow="dctactefecpago" msprop:Generator_ColumnPropNameInTable="dctactefecpagoColumn" msprop:Generator_UserColumnName="dctactefecpago" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="nctacteforpago" msprop:Generator_ColumnVarNameInTable="columnnctacteforpago" msprop:Generator_ColumnPropNameInRow="nctacteforpago" msprop:Generator_ColumnPropNameInTable="nctacteforpagoColumn" msprop:Generator_UserColumnName="nctacteforpago" type="xs:int" minOccurs="0" />
+              <xs:element name="descforpago" msprop:Generator_ColumnVarNameInTable="columndescforpago" msprop:Generator_ColumnPropNameInRow="descforpago" msprop:Generator_ColumnPropNameInTable="descforpagoColumn" msprop:Generator_UserColumnName="descforpago" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nctactepagimporte" msprop:Generator_ColumnVarNameInTable="columnnctactepagimporte" msprop:Generator_ColumnPropNameInRow="nctactepagimporte" msprop:Generator_ColumnPropNameInTable="nctactepagimporteColumn" msprop:Generator_UserColumnName="nctactepagimporte" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
